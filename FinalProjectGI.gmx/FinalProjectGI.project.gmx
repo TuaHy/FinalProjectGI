@@ -5,9 +5,58 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="main">
+      <sprite>sprites\spr_main_die</sprite>
+      <sprite>sprites\spr_main_jump</sprite>
+      <sprite>sprites\spr_main_walk</sprite>
+      <sprite>sprites\spr_main_idle</sprite>
+      <sprite>sprites\spr_main_fly</sprite>
+    </sprites>
+    <sprites name="main2">
+      <sprite>sprites\spr_main2_idle</sprite>
+      <sprite>sprites\spr_main2_die</sprite>
+      <sprite>sprites\spr_main2_jump</sprite>
+      <sprite>sprites\spr_main2_fly</sprite>
+      <sprite>sprites\spr_main2_walk</sprite>
+    </sprites>
+    <sprites name="main3">
+      <sprite>sprites\spr_main3_idle</sprite>
+      <sprite>sprites\spr_main3_die</sprite>
+      <sprite>sprites\spr_main3_jump</sprite>
+      <sprite>sprites\spr_main3_fly</sprite>
+      <sprite>sprites\spr_main3_walk</sprite>
+    </sprites>
+    <sprites name="enemy">
+      <sprite>sprites\spr_enemi_walk</sprite>
+      <sprite>sprites\spr_enemi1_walk</sprite>
+      <sprite>sprites\spr_enemy3_walk</sprite>
+      <sprite>sprites\spr_enemy4_walk</sprite>
+      <sprite>sprites\spr_enemy5_walk</sprite>
+    </sprites>
+    <sprite>sprites\spr_exploision</sprite>
+    <sprite>sprites\spr_coin</sprite>
+    <sprites name="obstacle">
+      <sprite>sprites\spr_obstacle_land</sprite>
+      <sprite>sprites\spr_obstacle_goUp_big</sprite>
+      <sprite>sprites\spr_obstacle_</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\Bg_main</background>
+    <background>background\bg_main2</background>
+    <background>background\bg_maingame3</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_input.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_main_idle</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\ro_main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
