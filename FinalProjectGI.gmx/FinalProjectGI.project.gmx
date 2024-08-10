@@ -12,6 +12,7 @@
       <sprite>sprites\spr_main_walk</sprite>
       <sprite>sprites\spr_main_idle</sprite>
       <sprite>sprites\spr_main_fly</sprite>
+      <sprite>sprites\spr_enemy_bullet</sprite>
     </sprites>
     <sprites name="main2">
       <sprite>sprites\spr_main2_idle</sprite>
@@ -39,8 +40,11 @@
     <sprites name="obstacle">
       <sprite>sprites\spr_obstacle_land</sprite>
       <sprite>sprites\spr_obstacle_goUp_big</sprite>
-      <sprite>sprites\spr_obstacle_</sprite>
+      <sprite>sprites\spr_obstacle_quiteBig</sprite>
+      <sprite>sprites\spr_bomb</sprite>
     </sprites>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_smoke</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bg_main</background>
@@ -52,7 +56,31 @@
     <script>scripts\scr_input.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_main_idle</object>
+    <objects name="main">
+      <object>objects\obj_main_idle</object>
+      <object>objects\obj_main_die</object>
+      <object>objects\obj_main_jump</object>
+      <object>objects\obj_main_walk</object>
+      <object>objects\obj_main_fly</object>
+    </objects>
+    <objects name="main2">
+      <object>objects\obj_main1_idle</object>
+      <object>objects\obj_main2_die</object>
+      <object>objects\obj_main2_jump</object>
+      <object>objects\obj_main2_fly</object>
+      <object>objects\obj_main2_walk</object>
+    </objects>
+    <objects name="main3">
+      <object>objects\obj_main3_idle</object>
+      <object>objects\obj_main3_die</object>
+      <object>objects\obj_main3_jump</object>
+      <object>objects\obj_main3_fly</object>
+      <object>objects\obj_main3_walk</object>
+    </objects>
+    <object>objects\obj_smoke</object>
+    <objects name="obstacle">
+      <object>objects\obj_bomb</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\ro_main</room>
