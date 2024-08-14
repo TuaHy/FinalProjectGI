@@ -80,8 +80,17 @@
     <object>objects\obj_smoke</object>
     <objects name="obstacle">
       <object>objects\obj_bomb</object>
+      <object>objects\obj_obstacle_goUp_big</object>
+      <object>objects\obj_obstacle_quite_big</object>
+      <object>objects\obj_obstacle_land</object>
     </objects>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_bullet</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\ro_main</room>
   </rooms>
