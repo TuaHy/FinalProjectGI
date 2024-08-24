@@ -46,6 +46,7 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_smoke</sprite>
     <sprite>sprites\spr_play_button</sprite>
+    <sprite>sprites\sor_scope</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bg_main</background>
@@ -81,6 +82,7 @@
     <object>objects\obj_coin</object>
     <object>objects\obj_explosion</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_scope</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
