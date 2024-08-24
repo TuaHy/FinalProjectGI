@@ -13,6 +13,7 @@ if (input_left or input_right) {
 }
 
 if input_fly and can_fly {
+    moveY = -2
     state = player_states.fly
     alarm[0] = 30
 }

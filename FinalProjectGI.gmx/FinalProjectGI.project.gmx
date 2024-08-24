@@ -30,9 +30,7 @@
     </sprites>
     <sprites name="enemy">
       <sprite>sprites\spr_enemi_walk</sprite>
-      <sprite>sprites\spr_enemi1_walk</sprite>
       <sprite>sprites\spr_enemy3_walk</sprite>
-      <sprite>sprites\spr_enemy4_walk</sprite>
       <sprite>sprites\spr_enemy5_walk</sprite>
     </sprites>
     <sprite>sprites\spr_exploision</sprite>
@@ -67,10 +65,9 @@
     </objects>
     <objects name="main3">
       <object>objects\obj_main3_idle</object>
-      <object>objects\obj_main3_die</object>
-      <object>objects\obj_main3_jump</object>
-      <object>objects\obj_main3_fly</object>
-      <object>objects\obj_main3_walk</object>
+      <object>objects\obj_enemy_ground_bazoka</object>
+      <object>objects\obj_enemy_fly</object>
+      <object>objects\obj_enemy_bomb</object>
     </objects>
     <object>objects\obj_smoke</object>
     <objects name="obstacle">
@@ -83,6 +80,8 @@
     <object>objects\obj_explosion</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_scope</object>
+    <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_controller</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>

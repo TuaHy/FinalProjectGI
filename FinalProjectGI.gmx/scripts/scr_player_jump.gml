@@ -31,3 +31,4 @@ if input_fly and can_fly {
     state = player_states.fly
     alarm[0] = 30
 }
+
