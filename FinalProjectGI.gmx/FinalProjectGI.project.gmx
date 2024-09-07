@@ -54,6 +54,7 @@
     <sprite>sprites\spr_exit</sprite>
     <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_replay</sprite>
+    <sprite>sprites\spr_canfly_notfly</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bg_main</background>
