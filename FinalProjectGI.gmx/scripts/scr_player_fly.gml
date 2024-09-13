@@ -15,6 +15,11 @@ if (place_meeting(x, y +moveY, obj_obstacle_land)) {
 if (input_fly and can_fly) {
     instance_create(x,y,obj_smoke)
     moveY -= 2
+    if instance_exists(obj_canfly) {
+        with(obj_canfly){
+            instance_destroy()
+        }
+    }
 }
 
 if (input_release_fly and can_fly) {

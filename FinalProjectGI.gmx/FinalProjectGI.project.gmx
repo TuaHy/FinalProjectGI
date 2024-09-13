@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\SO_exploision</sound>
     <sound>sound\SO_background</sound>
+    <sound>sound\SO_lose</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="main">
@@ -51,10 +52,13 @@
     <sprite>sprites\spr_bullet_icon</sprite>
     <sprite>sprites\spr_smoke_icon</sprite>
     <sprite>sprites\SPR_help</sprite>
+    <sprite>sprites\spr_name_game</sprite>
     <sprite>sprites\spr_exit</sprite>
     <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_replay</sprite>
     <sprite>sprites\spr_canfly_notfly</sprite>
+    <sprite>sprites\SPR_backMenu_button</sprite>
+    <sprite>sprites\spr_lose_letter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bg_main</background>
@@ -101,6 +105,13 @@
     <object>objects\obj_replay</object>
     <object>objects\obj_live</object>
     <object>objects\obj_controlller</object>
+    <object>objects\obj_canfly</object>
+    <object>objects\obj_name_game</object>
+    <object>objects\obj_playsound</object>
+    <object>objects\spr_backmenu_buton</object>
+    <object>objects\obj_lose_letter</object>
+    <object>objects\spr_score2</object>
+    <object>objects\spawn_block</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>

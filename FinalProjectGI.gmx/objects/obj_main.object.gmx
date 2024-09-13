@@ -41,6 +41,8 @@ grav = 1
 nor_spd = 10
 jump_counter = 0
 can_fly = true
+instance_create(0, 100, obj_canfly)
+
 
 </string>
           </argument>
@@ -203,6 +205,9 @@ can_fly = true
           <argument>
             <kind>1</kind>
             <string>can_fly = true
+if not instance_exists(obj_canfly) {
+    instance_create(0, 100, obj_canfly)
+}
 </string>
           </argument>
         </arguments>
@@ -524,7 +529,7 @@ check_attack -= 1
           </argument>
           <argument>
             <kind>1</kind>
-            <string>Score: </string>
+            <string>score:</string>
           </argument>
         </arguments>
       </action>
